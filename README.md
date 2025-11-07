@@ -30,14 +30,17 @@ Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ### 🧰 Approach
 
-| Phase | Description |
-|-------|--------------|
-| **1. Data Preparation** | Cleaned and transformed telecom customer dataset (handled missing values, categorical encoding, and data type corrections). |
-| **2. Exploratory Data Analysis (EDA)** | Analyzed customer demographics, contract types, payment methods, and service usage to uncover churn patterns. |
-| **3. Feature Engineering** | Created new variables (e.g., tenure categories) and addressed class imbalance using SMOTE. |
-| **4. Modeling** | Trained multiple machine learning models (Logistic Regression, Random Forest, Decision Tree, XGBoost Classifier) to predict churn. |
-| **5. Evaluation** | Compared models using Accuracy, Recall (Churn class), and F1 score. |
-| **6. Business Insights** | Translated model results into strategic recommendations for retention. |
+**1. Data Preparation**: Cleaned and transformed telecom customer dataset (handled missing values, categorical encoding, and data type corrections).
+
+**2. Exploratory Data Analysis (EDA)**: Analyzed customer demographics, contract types, payment methods, and service usage to uncover churn patterns.
+
+**3. Feature Engineering**: Created new variables (e.g., tenure categories) and addressed class imbalance using SMOTE.
+
+**4. Modeling**: Trained multiple machine learning models (Logistic Regression, Random Forest, Decision Tree, XGBoost Classifier) to predict churn.
+
+**5. Evaluation**: Compared models using Accuracy, Recall (Churn class), and F1 score.
+
+**6. Business Insights**: Translated model results into strategic recommendations for retention.
 
 ---
 

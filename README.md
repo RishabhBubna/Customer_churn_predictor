@@ -1,12 +1,12 @@
-# 📊 Customer Churn Analysis and Retention Strategy for a Telecom Company
+# 💼 Customer Churn Analysis and Retention Strategy for a Telecom Company
 
-### 🧠 Overview
+### 📝 Overview
 This project analyzes customer churn behavior for a telecom company and develops data-driven strategies to improve customer retention.  
 It combines exploratory data analysis, predictive modeling, and business insight generation to identify high-risk customer segments and recommend targeted interventions.
 
 ---
 
-### 🎯 Business Objective
+### 💸 Business Objective
 Customer churn is a critical metric for subscription-based businesses. The goal of this project is to:
 - Identify key drivers behind customer churn.
 - Build predictive models to estimate churn probability.
@@ -33,7 +33,7 @@ Customer_churn_predictor/
 
 ---
 
-### 🔍 Approach
+### 🧰 Approach
 
 | Phase | Description |
 |-------|--------------|
@@ -46,7 +46,7 @@ Customer_churn_predictor/
 
 ---
 
-### 🧩 Key Insights
+### 💡 Key Insights
 
 | Area | Observation | Business Interpretation | |
 |------|--------------|-------------------------|-------------------------|
@@ -83,7 +83,7 @@ Customer_churn_predictor/
 
 ---
 
-### Deployment Readiness
+### 🚀 Deployment Readiness
 
 The trained churn model has been saved as a **`.pkl` pipeline** that includes:
 - Data preprocessing (scaling, encoding, and balancing)
@@ -105,7 +105,7 @@ print(f"Predicted churn probability: {prob:.2f}")
 
 ---
 
-### 🧭 Tools & Technologies
+### 🔧 Tools & Technologies
 - **Python**: pandas, numpy, matplotlib, seaborn, scikit-learn, imbalanced-learn, xgboost  
 - **Modeling**: Logistic Regression, Random Forest, Decision Tree, XGBoost Classifier 
 - **Visualization**: seaborn, matplotlib  

@@ -121,10 +121,3 @@ Data Scientist | Business Analytics Consultant
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/rishabh-bubna-304bb3172)
 
 ---
-
-### 🚀 Next Steps
-✅ Add Streamlit dashboard for executive summary (interactive KPIs & churn visualizations).  
-✅ Package model predictions for deployment.  
-✅ Write blog post summarizing business insights.
-
----

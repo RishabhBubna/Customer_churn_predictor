@@ -48,12 +48,12 @@ Customer_churn_predictor/
 
 ### 🧩 Key Insights
 
-| Area | Observation | Business Interpretation |
-|------|--------------|-------------------------|
-| **Contract Type** | Month-to-month customers churn far more than those with yearly contracts. | Offer discounts for annual plans to increase retention. |
-| **Payment Method** | Electronic check users churn at higher rates. | Investigate friction in payment experience; promote auto-pay or credit options. |
-| **Customer Tenure** | Early-life customers (first 12 months) are at highest risk. | Implement onboarding campaigns or loyalty rewards for new users. |
-| **Tech Support / Online Security** | Lack of these services strongly correlates with churn. | Bundle these services as value-add features. |
+| Area | Observation | Business Interpretation | |
+|------|--------------|-------------------------|-------------------------|
+| **Contract Type** | Month-to-month customers churn far more than those with yearly contracts. | Offer discounts for annual plans to increase retention. |![Churn by Contract Type](images/Customer_churn_by_contract.png)|
+| **Payment Method** | Electronic check users churn at higher rates. | Investigate friction in payment experience; promote auto-pay or credit options. |![Churn by paymentmethod](images/Customer_churn_by_paymentmethod.png)|
+| **Customer Tenure** | Early-life customers (first 12 months) are at highest risk. | Implement onboarding campaigns or loyalty rewards for new users. |![Churn by customer_tenure](images/Customer_churn_by_tenure_group.png)|
+| **Tech Support / Online Security** | Lack of these services strongly correlates with churn. | Bundle these services as value-add features. |![Churn by paymentmethod](images/Customer_churn_by_techsupport.png)|
 
 ---
 
@@ -67,9 +67,11 @@ Customer_churn_predictor/
 | XGBoost | 0.84 | 0.79 |
 | Decision Tree | 0.69 | 0.74 |
 
+![Model performance](images/Model_performance.png)
+
 **Interpretation:**  
-Selected Model: Logistic Regression
-Reason: Offers transparent insights into feature influence, business interpretability, and stable generalization.
+- Selected Model: Logistic Regression
+- Reason: Offers transparent insights into feature influence, business interpretability, and stable generalization.
 
 ---
 

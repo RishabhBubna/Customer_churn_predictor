@@ -136,12 +136,12 @@ print(f"Predicted churn probability: {prob:.2f}")
 - **Modeling**: Logistic Regression, Random Forest, Decision Tree, XGBoost Classifier 
 - **Visualization**: seaborn, matplotlib  
 - **Environment**: Jupyter Notebook  
-- *(Next step: Streamlit dashboard for executive summary)*
+- **Dashboard**: Streamlit
 
 ---
 
 ### 👤 Author
-**[Rishabh Bubna]**  
+**Rishabh Bubna**  
 Data Scientist | Business Analytics Consultant  
 📧 rishabh.bubna.3012@gmail.com
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/rishabh-bubna-304bb3172)

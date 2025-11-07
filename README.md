@@ -19,43 +19,12 @@ Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ---
 
-### 🗂️ Project Structure
-
-```bash
-Customer_churn_predictor/
-├── CCP.ipynb                                     # Main notebook (analysis & modeling)
-├── app
-│   └── Dashboard.py                              # Streamlit dashboard (executive summary)
-├── images                                        # Plots and visual assets
-│   ├── Churn_drivers.png
-│   ├── Correlation_Matrix.png
-│   ├── Customer_churn_by_contract.png
-│   ├── Customer_churn_by_dependent.png
-│   ├── Customer_churn_by_deviceprotection.png
-│   ├── Customer_churn_by_gender.png
-│   ├── Customer_churn_by_internetservice.png
-│   ├── Customer_churn_by_multiplelines.png
-│   ├── Customer_churn_by_onlinebackup.png
-│   ├── Customer_churn_by_onlinesecurity.png
-│   ├── Customer_churn_by_paperlessbilling.png
-│   ├── Customer_churn_by_partner.png
-│   ├── Customer_churn_by_paymentmethod.png
-│   ├── Customer_churn_by_phoneservice.png
-│   ├── Customer_churn_by_seniorcitizen.png
-│   ├── Customer_churn_by_streamingmovies.png
-│   ├── Customer_churn_by_streamingtv.png
-│   ├── Customer_churn_by_techsupport.png
-│   ├── Customer_churn_by_tenure_group.png
-│   ├── Customer_churn_rate.png
-│   ├── Model_performance.png
-│   ├── Monthly_charges.png
-│   ├── Monthly_charges_boxplot.png
-│   ├── Tenure_boxplot.png
-│   └── Tenure_distribution.png
-├── log_reg_churn_pipeline.pkl                    # Model saved as pipeline for future prediction
-├── requirements.txt                              # Python dependencies            
-└── README.md                                     # Project overview and documentation                
-```
+### 🔧 Tools & Technologies
+- **Python**: pandas, numpy, matplotlib, seaborn, scikit-learn, imbalanced-learn, xgboost  
+- **Modeling**: Logistic Regression, Random Forest, Decision Tree, XGBoost Classifier 
+- **Visualization**: seaborn, matplotlib  
+- **Environment**: Jupyter Notebook  
+- **Dashboard**: Streamlit
 
 ---
 
@@ -131,12 +100,43 @@ print(f"Predicted churn probability: {prob:.2f}")
 
 ---
 
-### 🔧 Tools & Technologies
-- **Python**: pandas, numpy, matplotlib, seaborn, scikit-learn, imbalanced-learn, xgboost  
-- **Modeling**: Logistic Regression, Random Forest, Decision Tree, XGBoost Classifier 
-- **Visualization**: seaborn, matplotlib  
-- **Environment**: Jupyter Notebook  
-- **Dashboard**: Streamlit
+### 🗂️ Project Structure
+
+```bash
+Customer_churn_predictor/
+├── CCP.ipynb                                     # Main notebook (analysis & modeling)
+├── app
+│   └── Dashboard.py                              # Streamlit dashboard (executive summary)
+├── images                                        # Plots and visual assets
+│   ├── Churn_drivers.png
+│   ├── Correlation_Matrix.png
+│   ├── Customer_churn_by_contract.png
+│   ├── Customer_churn_by_dependent.png
+│   ├── Customer_churn_by_deviceprotection.png
+│   ├── Customer_churn_by_gender.png
+│   ├── Customer_churn_by_internetservice.png
+│   ├── Customer_churn_by_multiplelines.png
+│   ├── Customer_churn_by_onlinebackup.png
+│   ├── Customer_churn_by_onlinesecurity.png
+│   ├── Customer_churn_by_paperlessbilling.png
+│   ├── Customer_churn_by_partner.png
+│   ├── Customer_churn_by_paymentmethod.png
+│   ├── Customer_churn_by_phoneservice.png
+│   ├── Customer_churn_by_seniorcitizen.png
+│   ├── Customer_churn_by_streamingmovies.png
+│   ├── Customer_churn_by_streamingtv.png
+│   ├── Customer_churn_by_techsupport.png
+│   ├── Customer_churn_by_tenure_group.png
+│   ├── Customer_churn_rate.png
+│   ├── Model_performance.png
+│   ├── Monthly_charges.png
+│   ├── Monthly_charges_boxplot.png
+│   ├── Tenure_boxplot.png
+│   └── Tenure_distribution.png
+├── log_reg_churn_pipeline.pkl                    # Model saved as pipeline for future prediction
+├── requirements.txt                              # Python dependencies            
+└── README.md                                     # Project overview and documentation                
+```
 
 ---
 

@@ -24,7 +24,7 @@ Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 - **Modeling**: Logistic Regression, Random Forest, Decision Tree, XGBoost Classifier 
 - **Visualization**: seaborn, matplotlib  
 - **Environment**: Jupyter Notebook  
-- **Dashboard**: Streamlit
+- **Web Application**: Streamlit
 
 ---
 

@@ -1,12 +1,12 @@
-# 💼 Customer Churn Analysis and Retention Strategy for a Telecom Company
+# Customer Churn Analysis and Retention Strategy for a Telecom Company
 
-### 📝 Overview
+### Overview
 This project analyzes customer churn behavior for a telecom company and develops data-driven strategies to improve customer retention.  
 It combines exploratory data analysis, predictive modeling, and business insight generation to identify high-risk customer segments and recommend targeted interventions.
 
 ---
 
-### 💸 Business Objective
+### Business Objective
 Customer churn is a critical metric for subscription-based businesses. The goal of this project is to:
 - Identify key drivers behind customer churn.
 - Build predictive models to estimate churn probability.
@@ -14,12 +14,12 @@ Customer churn is a critical metric for subscription-based businesses. The goal 
 
 ---
 
-### 🗃️ Data
+### Data
 Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ---
 
-### 🔧 Tools & Technologies
+### Tools & Technologies
 - **Python**: pandas, numpy, matplotlib, seaborn, scikit-learn, imbalanced-learn, xgboost  
 - **Modeling**: Logistic Regression, Random Forest, Decision Tree, XGBoost Classifier 
 - **Visualization**: seaborn, matplotlib  
@@ -28,7 +28,7 @@ Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ---
 
-### 🧰 Approach
+### Approach
 
 **1. Data Preparation**: Cleaned and transformed telecom customer dataset (handled missing values, categorical encoding, and data type corrections).
 
@@ -44,7 +44,7 @@ Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ---
 
-### 💡 Key Insights
+### Key Insights
 
 | Area | Observation | Business Interpretation | |
 |------|--------------|-------------------------|-------------------------|
@@ -55,7 +55,7 @@ Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ---
 
-### 📈 Modeling Results
+### Modeling Results
 
 
 | Model | ROC-AUC | Accuracy | 
@@ -73,7 +73,7 @@ Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ---
 
-### 💡 Strategic Recommendations
+### Strategic Recommendations
 - Introduce **loyalty incentives** for short-tenure customers.  
 - Offer **contract upgrades** and discounts for switching from month-to-month to yearly plans.  
 - Promote **bundled packages** that include online security and tech support.  
@@ -81,9 +81,10 @@ Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ---
 
-### 🚀 Deployment Readiness
+### Deployment Readiness
 
-The trained churn model has been saved as a **`.pkl` pipeline** that includes:
+The trained churn model has been deployed on the streamlit based web application mentioned above.
+In addition the trained churn model has been saved as a **`.pkl` pipeline** that includes:
 - Data preprocessing (scaling, encoding, and balancing)
 - The trained logistic regression model
 - All transformation logic for inference
@@ -103,13 +104,18 @@ print(f"Predicted churn probability: {prob:.2f}")
 
 ---
 
-### 🗂️ Project Structure
+### Project Structure
 
 ```bash
 Customer_churn_predictor/
 ├── CCP.ipynb                                     # Main notebook (analysis & modeling)
 ├── app
-│   └── Dashboard.py                              # Streamlit dashboard (executive summary)
+│   ├── Dashboard.py                              # Streamlit Web Application
+|   ├── Home_page.py
+│   ├── page_1.py
+│   └── page_2.py
+├── cleaned_data.csv                              # cleaned data
+├── feature_importance.csv                        # weights of individual feautres accodring to ML model
 ├── images                                        # Plots and visual assets
 │   ├── Churn_drivers.png
 │   ├── Correlation_Matrix.png

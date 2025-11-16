@@ -110,8 +110,8 @@ print(f"Predicted churn probability: {prob:.2f}")
 Customer_churn_predictor/
 ├── CCP.ipynb                                     # Main notebook (analysis & modeling)
 ├── app
-|   ├── Dashboard.py                              # Streamlit Web Application
-|   ├── Home_page.py
+│   ├── Dashboard.py                              # Streamlit Web Application
+│   ├── Home_page.py
 │   ├── page_1.py
 │   └── page_2.py
 ├── cleaned_data.csv                              # cleaned data

@@ -93,11 +93,11 @@ This allows business users or data engineers to seamlessly deploy the model with
 **Example usage:**
 ```python
 import joblib
-model = joblib.load("log_reg_churn_pipeline.pkl")
+model = joblib.load("log_reg_churn_model.pkl")
 
 # Predict churn probability for new customer
 sample = Customer_Data
-prob = model.predict_proba(sample)[0, 1]
+prob = model.predict_proba(sample)[:, 1]
 print(f"Predicted churn probability: {prob:.2f}")
 ```
 

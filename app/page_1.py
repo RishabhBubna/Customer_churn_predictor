@@ -113,7 +113,7 @@ with st.container(border=False,horizontal_alignment ="center"):
         st.title("Customer Churn Dashboard")
         container1 = st.container(border=True)
         with container1:
-            df = load_data('cleaned_data.csv')
+            df = load_data('cleaneddata.csv')
             col1, col2, col3 = st.columns([0.1,0.6,0.4])
             with col1:
                 st.metric(label="Churn Rate", value="26.54%",border = True)
@@ -144,5 +144,6 @@ with st.container(border=False,horizontal_alignment ="center"):
 
 
     
+
 
 

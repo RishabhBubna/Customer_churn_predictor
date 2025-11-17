@@ -113,7 +113,7 @@ with st.container(border=False,horizontal_alignment ="center"):
                 ###### Use the :red[Logistic Regression] model to predict whether a customer will churn or not based on the input features.
                 """
             )
-        model = load_model("../log_reg_churn_pipeline.pkl")
+        model = load_model("log_reg_churn_pipeline.pkl")
         col_name = ['gender','SeniorCitizen','Partner','Dependents','tenure','PhoneService','MultipleLines','InternetService','OnlineSecurity','OnlineBackup','DeviceProtection',
                     'TechSupport','StreamingTV','StreamingMovies','Contract','PaperlessBilling','PaymentMethod','MonthlyCharges','TotalCharges']
         col1, col2, col3, col4 = st.columns(4)
@@ -161,6 +161,7 @@ with st.container(border=False,horizontal_alignment ="center"):
                         st.warning('Probability of Churn: {:.2f}%, Moderate Risk of Churn.'.format(prob[0] * 100))
                     else:
                         st.success('Probability of Churn: {:.2f}%, Low Risk of Churn.'.format(prob[0] * 100))
+
 
 
 

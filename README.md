@@ -54,6 +54,7 @@ Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 link: 
 
+![Home_page](images/homepage.png) ![Dashboard](images/dashboard.png) ![Predictive_model](images/predictive_model.png)
 ---
 
 ### Key Insights

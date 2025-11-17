@@ -98,7 +98,7 @@ def group_countplot():
     st.plotly_chart(fig)
 
 def importance_plot():
-    feature_importance = load_data('../feature_importance.csv')
+    feature_importance = load_data('feature_importance.csv')
     fig = px.bar(feature_importance.sort_values("Importance"), x="Importance", y="Feature", color = "Churn Driver" ,color_discrete_sequence=["#17becf",'#1f77b4'], width=600, height=180)
     fig.update_layout(
     margin=dict(l=0, r=0, t=0, b=0)
@@ -144,3 +144,4 @@ with st.container(border=False,horizontal_alignment ="center"):
 
 
     
+

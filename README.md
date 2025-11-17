@@ -21,9 +21,9 @@ Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 ---
 
 ### Tools & Technologies
-- **Python**: pandas, numpy, matplotlib, seaborn, scikit-learn, imbalanced-learn, xgboost  
+- **Python**: pandas, numpy, scikit-learn, imbalanced-learn, xgboost, joblit  
 - **Modeling**: Logistic Regression, Random Forest, Decision Tree, XGBoost Classifier 
-- **Visualization**: seaborn, matplotlib  
+- **Visualization**: seaborn, matplotlib, plotly  
 - **Environment**: Jupyter Notebook  
 - **Web Application**: Streamlit
 

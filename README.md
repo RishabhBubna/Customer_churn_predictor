@@ -10,6 +10,7 @@ It combines exploratory data analysis, predictive modeling, and business insight
 Customer churn is a critical metric for subscription-based businesses. The goal of this project is to:
 - Identify key drivers behind customer churn.
 - Build predictive models to estimate churn probability.
+- Deploy the predictive model via a streamlit web application
 - Provide actionable recommendations to reduce attrition and increase customer lifetime value.
 
 ---
@@ -41,6 +42,16 @@ Available at : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 **5. Evaluation**: Compared models using Accuracy, Recall (Churn class), and F1 score.
 
 **6. Business Insights**: Translated model results into strategic recommendations for retention.
+
+**7. Data Presentation**: Deployed a streamlit based web application explaining customer churn, presenting EDA and model Evaluation.
+
+**8. Model Deployment**: Deployed the model for easy use on the streamlit based web application. 
+
+---
+
+### Web application
+
+link: 
 
 ---
 
